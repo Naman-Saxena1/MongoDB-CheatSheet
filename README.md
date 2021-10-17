@@ -18,7 +18,7 @@ db
 use acme
 ```
 
-## Drop Database
+## Drop (Delete) Current Database
 
 ```
 db.dropDatabase()
