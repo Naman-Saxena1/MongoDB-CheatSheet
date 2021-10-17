@@ -146,7 +146,7 @@ db.posts.find({ title: 'Post One' }, {
 })
 ```
 
-## Update Row
+## Update Row (2nd parameter upsert, which if equals true and title='Post Two' does not exist, it will create new one)
 
 ```
 db.posts.update({ title: 'Post Two' },
@@ -160,7 +160,7 @@ db.posts.update({ title: 'Post Two' },
 })
 ```
 
-## Update Specific Field
+## Update Specific Field ($set only updates info and keeps old info as it is)
 
 ```
 db.posts.update({ title: 'Post Two' },
