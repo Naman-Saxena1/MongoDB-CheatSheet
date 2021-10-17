@@ -15,7 +15,7 @@ db
 ## Create Or Switch Database
 
 ```
-use acme
+use testdatabase
 ```
 
 ## Drop (Delete) Current Database
