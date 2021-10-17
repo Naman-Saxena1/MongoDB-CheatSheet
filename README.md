@@ -1,6 +1,6 @@
 # MongoDB Cheat Sheet
 
-## Show All Databases
+## Show All Databases (Won't show databases that do NOT have collections)
 
 ```
 show dbs
