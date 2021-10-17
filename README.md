@@ -24,16 +24,16 @@ use testdatabase
 db.dropDatabase()
 ```
 
-## Create Collection
-
-```
-db.createCollection('posts')
-```
-
 ## Show Collections
 
 ```
 show collections
+```
+
+## Create Collection
+
+```
+db.createCollection('posts')
 ```
 
 ## Insert Row
