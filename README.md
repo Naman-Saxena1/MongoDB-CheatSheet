@@ -259,3 +259,10 @@ db.posts.find({ views: { $gte: 7 } })
 db.posts.find({ views: { $lt: 7 } })
 db.posts.find({ views: { $lte: 7 } })
 ```
+
+## Read all data from a collection
+
+```
+mongo
+db.userdatas.find().pretty()
+```
