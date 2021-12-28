@@ -263,7 +263,12 @@ db.posts.find({ views: { $lte: 7 } })
 ## Read all data from a collection
 
 ```
-mongo
-db.userdatas.find().pretty()
+mongosh
+show dbs
+use testdatabase              //Where testdatabase is name of database we want to use
+show collections
+db.users.find().pretty()      //Where users is the name of collection we want to view
 it
+db.users.deleteMany({})       //Method 1 - To empty the collection
+db.users.drop()               //Method 2 - To drop the collection itself
 ```
